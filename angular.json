@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "perfect-nav"
+    }
+  },
+  "defaultProject": "perfect-nav",
+  "cli": {
+    "analytics": false
+  }
 }

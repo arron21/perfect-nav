@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+div {
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-width: 260px;
+    --nav-iconMode-width: 28px;
+
+    --transition-speed: 200ms;
+
+    --child-indent: 0;
+    --link-height: 44px;
+    --hover-bg: #efefef;
+    --icon-bg: #ddd;
+    --icon-br: 4px;
+    --border-width: 3px;
+    --border-color: #444;
+
+    --icon-img-size:  78%;
+}
