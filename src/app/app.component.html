@@ -1,13 +1,25 @@
-<app-ng-perfect-nav [links]="links" [squircle]="true" [hoverReveal]="hoverReveal" [iconMode]="iconMode"
-    [iconPosition]="iconPosition" [hideIcons]="hideIcons" [border]="border">
-</app-ng-perfect-nav>
+<div class="app">
 
-<button (click)="iconMode = true">Icons</button>
-<button (click)="iconMode = false">Full</button>
+    <div class="nav">
+        <app-ng-perfect-nav [links]="links" [squircle]="true" [hoverReveal]="hoverReveal" [iconMode]="iconMode"
+            [iconPosition]="iconPosition" [hideIcons]="hideIcons" [border]="border">
+            <ng-container ngProjectAs="logo">
+                <img src="/assets/amweb-logo.png" />
+            </ng-container>
+        </app-ng-perfect-nav>
+    </div>
+    <div class="main">
 
-<button (click)="iconPosition = 'icon-left'">left icons</button>
-<button (click)="iconPosition = 'icon-right'">right icons</button>
 
-<button (click)="border = 'border-left'">border left</button>
-<button (click)="border = 'border-right'">border right</button>
-<button (click)="border = ''">border none</button>
+        <button (click)="iconMode = true">Icons</button>
+        <button (click)="iconMode = false">Full</button>
+
+        <button (click)="iconPosition = 'icon-left'">left icons</button>
+        <button (click)="iconPosition = 'icon-right'">right icons</button>
+
+        <button (click)="border = 'border-left'">border left</button>
+        <button (click)="border = 'border-right'">border right</button>
+        <button (click)="border = ''">border none</button>
+    </div>
+
+</div>

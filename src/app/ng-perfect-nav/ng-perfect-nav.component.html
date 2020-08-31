@@ -1,26 +1,9 @@
-<!-- <div class="perfect-nav-container" class="{{iconPosition}} {{border}}"
-    [ngClass]="{'icon-mode': iconMode, 'hover-reveal': hoverReveal }"> -->
-<!-- <div *ngFor="let l of links" class="link" [ngStyle]="{'max-height.px': l.height}">
-        <div class="link-content">
-            <div class="icon">{{l.icon}}</div>
-            <div class="label" *ngIf="!l.disabled"><a [attr.href]="l.link">{{l.label}}</a></div>
-            <div class="label" *ngIf="l.disabled"><span>{{l.label}}</span></div>
-            <div class="children-dropdown" *ngIf="l.children && l.children.length" (click)="toggleChildren(l)">
-                <span>^</span></div>
-        </div>
-
-        <div *ngFor="let c of l.children" class="link">
-            <div class="link-content">
-                <div class="icon">{{c.icon}}</div>
-                <div class="label" *ngIf="!c.disabled"><a [attr.href]="c.link">{{c.label}}</a></div>
-                <div class="label" *ngIf="c.disabled"><span>{{c.label}}</span></div>
-            </div>
-        </div>
-    </div> -->
-<!-- </div> -->
-
-<div>
+<div class="perfect-nav-top" class="{{iconPosition}} {{border}}"
+    [ngClass]="{'icon-mode': iconMode, 'hover-reveal': hoverReveal }">
     <div class="icon-collapse" (click)="iconMode = !iconMode">&#9776;</div>
+    <div class="logo-content">
+        <ng-content slot="logo"></ng-content>
+    </div>
 </div>
 <div class="perfect-nav-container" class="{{iconPosition}} {{border}}"
     [ngClass]="{'icon-mode': iconMode, 'hover-reveal': hoverReveal }">

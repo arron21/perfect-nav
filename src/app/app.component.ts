@@ -52,7 +52,26 @@ export class AppComponent {
               label: 'emails',
               icon: 'H',
               disabled: true,
-              link: 'amweb.xyz'
+              link: 'amweb.xyz',
+              children: [
+                {
+                  visible: true,
+
+                  label: 'emails',
+                  icon: 'H',
+                  disabled: true,
+                  link: 'amweb.xyz'
+                },
+                {
+                  visible: false,
+
+                  label: 'childen',
+                  icon: 'H',
+                  disabled: true,
+                  link: 'amweb.xyz'
+
+                }
+              ]
             },
             {
               visible: false,

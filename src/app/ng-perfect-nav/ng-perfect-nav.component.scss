@@ -7,17 +7,46 @@
     }
     .link {
     }
+
+    .child-links {
+        padding-left: 0;
+    }
+}
+
+.perfect-nav-top {
+    display: flex;
+    align-items: center;
+    &.icon-mode {
+        .logo-content {
+            display: none;
+        }
+
+        &:hover
+    }
+}
+
+.logo-content {
+    height: 30px;
+    ::ng-deep > * {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
 }
 
 .perfect-nav-container {
     display: block;
+
+    background-color: var(--nav-bg-color);
     max-width: var(--nav-width);
     transition: var(--transition-speed) all;
 
 
 
     &.icon-mode {
-        max-width: var(--nav-iconMode-width);;
+        max-width: var(--nav-iconMode-width);
+
 
         .link {
             max-width: var(--nav-iconMode-width);
@@ -25,22 +54,37 @@
 
         &.icon-right {
             .label {
-                order: 2
+                order: 2;
+                flex: 1;
     
             }
             .icon {
                 order: 1
             }
+
         }
 
         .link-category {
             display: none;
         }
+
+        .child-links {
+            padding-left: 0;
+        }
     }
 
+    
+
     &.icon-mode.hover-reveal {
+        position: absolute;
         &:hover {
+
+            
             max-width: var(--nav-width);
+
+            .child-links {
+                padding-left: var(--child-indent);
+            }
             .link-category {
                 display: block;
             }
@@ -48,16 +92,18 @@
                 
             .link,.label {
                 max-width: var(--nav-width);
+                
             }
 
             &.icon-right {
                 .label {
-                    order: 1
+                    order: 1;
         
                 }
                 .icon {
                     order: 2
                 }
+
             }
         }
 
@@ -98,11 +144,15 @@
     }
     &.icon-right {
         .label {
-            order: 1
+            order: 1;
+            flex: 1;
 
         }
         .icon {
             order: 2
+        }
+        .children-dropdown {
+            order: 0;
         }
     }
 }
@@ -230,7 +280,7 @@
 
 .icon-collapse {
     cursor: pointer;
-    padding: 0 9px;
+    padding: 9px;
     width: 33px;
 }
 
