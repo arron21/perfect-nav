@@ -17,6 +17,12 @@ export class AppComponent {
   links = [
     {
       visible: true,
+      label: 'Institutionn',
+      disabled: true,
+      groupCategory: true,
+    },
+    {
+      visible: true,
       label: 'dashboard',
       icon: '',
       iconImg: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAFiQAABYkBbWid+gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGySURBVEiJpdW7a1RREAbw34lZsusLUigxrYWKIEjsLMTCP8BeQfDZio2IpEpjnVI7bSxFC7URCUtQIliINprWINhpksqx2BO9hLvn7CYDBy7z+L57vzMzN0WEkqWU9uI+zqGHhHW8xUJErBcBImLowTTe4yqmGv4ubmEF00WMCsE8rhTi1zG/G4Jl9ArxHpZLGBNF/ehGxEZB3o0s11CrEaRKvJozlCCl1EFnBIJOzh2PACfQH4Ggn3PHJigPyH8ry1jokAks4VAhZw5fNWZk3Da9jLuF+BJO7WYOJvEae1piF/C4VF8lyEA3cLvFv4KjtfraHDDYRcda/JMR8a1WPArBSfxs8U/lTVu2iv438VGLFLiDVzg99h3gIj5gAQcLL3EGz/EMc1UCg9XwFA8xW7vAbUQvsIiJEsEjXBsVuIXoHhZbCbLm/Z2CN3DeacxNs4uO43O1K+r2SaOtmwTrmE0pHdgpcq6dweaWb3LrISJWU0ov8SWl9MSgi9by+R4Rv7aB7ceRDDhjsPgu4UFErP7Ly7o1C7s4j7O58HA++/Cn8eW/8SOfNYP/wpuI2Gzi/QViu/FfL3976QAAAABJRU5ErkJggg==',
@@ -87,6 +93,12 @@ export class AppComponent {
 
         }
       ]
+    },
+    {
+      visible: true,
+      label: '3rd thing',
+      disabled: true,
+      groupCategory: true,
     },
     {
       visible: true,
