@@ -5,17 +5,16 @@ import { createCustomElement } from '@angular/elements';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { NgPerfectNavComponent } from './ng-perfect-nav/ng-perfect-nav.component';
+import { NgxPerfectNavModule } from './ngx-perfect-nav';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgPerfectNavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPerfectNavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
