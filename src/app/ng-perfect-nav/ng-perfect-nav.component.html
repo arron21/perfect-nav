@@ -29,6 +29,8 @@
 
 <ng-template #linkTemplate let-link="link">
     <div class="link-content">
+        <div class="icon no-bg" *ngIf="!link.icon"></div>
+
         <div class="icon" *ngIf="link.icon" [ngClass]="{'squircle': squircle}">{{link.icon}}</div>
         <div class="icon" *ngIf="link.iconImg" [ngClass]="{'squircle': squircle}"><img src="{{link.iconImg}}" /></div>
 

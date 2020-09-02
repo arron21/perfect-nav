@@ -4,16 +4,21 @@ div {
 }
 
 :root {
-    --nav-width: 260px;
+    --nav-width: 280px;
     --nav-iconMode-width: 33px;
     --nav-bg-color: #fff;
 
+    --logo-height: 44px;
+
     --transition-speed: 200ms;
 
-    --child-indent: 8px;
+    --child-indent: 4px;
+    --child-bg: rgba(0,0,0,.05);
+
     --link-height: 44px;
     --hover-bg: #efefef;
     --icon-bg: #ddd;
+    --dropdown-bg-hover: #ddd;
     --icon-br: 4px;
     --border-width: 3px;
     --border-color: #444;
