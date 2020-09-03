@@ -31,6 +31,10 @@
     <div class="link-content">
         <div class="icon no-bg" *ngIf="!link.icon"></div>
 
+        <i class="fas fa-chart-line"></i>
+        
+        <div class="icon" *ngIf="link.faIcon" [ngClass]="{'squircle': squircle}"><i class="fas {{link.faIcon}}"></i></div>
+
         <div class="icon" *ngIf="link.icon" [ngClass]="{'squircle': squircle}">{{link.icon}}</div>
         <div class="icon" *ngIf="link.iconImg" [ngClass]="{'squircle': squircle}"><img src="{{link.iconImg}}" /></div>
 
