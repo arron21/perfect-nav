@@ -25,14 +25,12 @@ export class AppComponent {
       visible: true,
       label: 'Multi Level Dropdown 1',
       icon: 'A',
-      faIcon: `fa-chart-line`,
       iconImg: '',
       disabled: false,
       link: 'google.com',
       children: [
         {
           visible: true,
-
           label: 'Multi Level Dropdown 1.1',
           icon: 'A',
           iconImg: '',
