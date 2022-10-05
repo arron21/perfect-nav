@@ -1,7 +1,7 @@
 <div class="app">
 
-    <div class="nav">
-        <app-ng-perfect-nav [links]="links" [squircle]="false" [hoverReveal]="hoverReveal" [iconMode]="iconMode"
+    <div class="nav" [ngClass]="{'dark-mode': darkMode}">
+        <app-ng-perfect-nav [links]="links" [squircle]="false" [hoverReveal]="hoverReveal" [showCategories]="showCategories" [iconMode]="iconMode"
             [iconPosition]="iconPosition" [hideIcons]="hideIcons" [border]="border">
             <ng-container ngProjectAs="logo">
                 NGX Perfect Nav
@@ -10,16 +10,18 @@
     </div>
     <div class="main">
 
+        <h1>NGX Perfect Nav</h1>
+        <button (click)="iconMode = !iconMode">Collapsed</button>
+        <button (click)="showCategories = !showCategories">Show Categories</button>
 
-        <button (click)="iconMode = true">Icons</button>
-        <button (click)="iconMode = false">Full</button>
+        <!-- <button (click)="iconPosition = 'icon-left'">left icons</button> -->
+        <!-- <button (click)="iconPosition = 'icon-right'">right icons</button> -->
 
-        <button (click)="iconPosition = 'icon-left'">left icons</button>
-        <button (click)="iconPosition = 'icon-right'">right icons</button>
+        <!-- <button (click)="border = 'border-left'">border left</button> -->
+        <!-- <button (click)="border = 'border-right'">border right</button> -->
+        <!-- <button (click)="border = ''">border none</button> -->
+        <button (click)="darkMode = !darkMode">Dark Mode</button>
 
-        <button (click)="border = 'border-left'">border left</button>
-        <button (click)="border = 'border-right'">border right</button>
-        <button (click)="border = ''">border none</button>
     </div>
 
 </div>

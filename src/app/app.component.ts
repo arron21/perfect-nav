@@ -9,8 +9,10 @@ export class AppComponent {
   iconPosition = 'icon-left'
   iconMode = false;
   hideIcons = false;
-
+  showCategories = true;
   hoverReveal = true;
+
+  darkMode = false;
 
   border: string = '';
 
@@ -23,7 +25,7 @@ export class AppComponent {
     },
     {
       visible: true,
-      label: 'Multi Level Dropdown 1',
+      label: 'google.com',
       icon: 'A',
       iconImg: '',
       disabled: false,
@@ -31,7 +33,7 @@ export class AppComponent {
       children: [
         {
           visible: true,
-          label: 'Multi Level Dropdown 1.1',
+          label: 'amweb.xyz',
           icon: 'A',
           iconImg: '',
           disabled: true,
@@ -40,33 +42,33 @@ export class AppComponent {
         {
           visible: true,
 
-          label: 'Multi Level Dropdown 1.2',
+          label: 'arronmccrory.com',
           icon: 'A',
           disabled: true,
-          link: 'amweb.xyz',
+          link: 'arronmccrory.com',
           children: [
             {
               visible: true,
 
-              label: 'Multi Level Dropdown 1.2.1',
+              label: 'arronmccrory.com',
               icon: 'A',
               disabled: true,
-              link: 'amweb.xyz',
+              link: 'arronmccrory.com',
               children: [
                 {
                   visible: true,
 
-                  label: 'Multi Level Dropdown 1.2.1.1',
+                  label: 'arronmccrory.com',
                   icon: 'A',
                   disabled: true,
-                  link: 'amweb.xyz'
+                  link: 'arronmccrory.com'
                 },
                 {
                   visible: true,
-                  label: 'Multi Level Dropdown 1.2.1.2',
+                  label: 'arronmccrory.com',
                   icon: 'A',
                   disabled: true,
-                  link: 'amweb.xyz'
+                  link: 'arronmccrory.com'
 
                 }
               ]
@@ -74,10 +76,10 @@ export class AppComponent {
             {
               visible: false,
 
-              label: 'Multi Level Dropdown 1.2.2',
+              label: 'arronmccrory.com',
               icon: 'H',
               disabled: true,
-              link: 'amweb.xyz'
+              link: 'arronmccrory.com'
 
             }
           ]
@@ -87,26 +89,26 @@ export class AppComponent {
     {
       visible: true,
 
-      label: 'Single Level Child',
+      label: 'arronmccrory.com',
       icon: 'B',
       disabled: true,
-      link: 'amweb.xyz',
+      link: 'arronmccrory.com',
       children: [
         {
           visible: true,
 
-          label: 'Child',
+          label: 'arronmccrory.com',
           icon: 'B',
           disabled: true,
-          link: 'amweb.xyz'
+          link: 'arronmccrory.com'
         },
         {
           visible: true,
 
-          label: 'Child',
+          label: 'arronmccrory.com',
           icon: 'B',
           disabled: true,
-          link: 'amweb.xyz'
+          link: 'arronmccrory.com'
 
         }
       ]
@@ -120,10 +122,10 @@ export class AppComponent {
     {
       visible: true,
 
-      label: 'Link ',
+      label: 'arronmccrory.com',
       icon: 'C',
       disabled: true,
-      link: 'amweb.xyz'
+      link: 'arronmccrory.com'
     },
     {
       visible: true,
@@ -133,31 +135,31 @@ export class AppComponent {
     },
     {
       visible: true,
-      label: 'No Icon',
+      label: 'arronmccrory.com',
       icon: '',
       disabled: true,
-      link: 'amweb.xyz'
+      link: 'arronmccrory.com'
     },
     {
       visible: true,
-      label: 'Children without icon',
+      label: 'arronmccrory.com',
       icon: 'D',
       disabled: true,
-      link: 'amweb.xyz',
+      link: 'arronmccrory.com',
       children: [
         {
           visible: true,
-          label: 'Child without icon',
+          label: 'arronmccrory.com',
           icon: '',
           disabled: true,
-          link: 'amweb.xyz',
+          link: 'arronmccrory.com',
         },
         {
           visible: true,
-          label: 'Child with icon',
+          label: 'arronmccrory.com',
           icon: 'D',
           disabled: true,
-          link: 'amweb.xyz',
+          link: 'arronmccrory.com',
         }
       ]
     }

@@ -22,11 +22,43 @@ div {
     --hover-bg: #efefef;
     --icon-bg: #ddd;
     --dropdown-bg-hover: #ddd;
+    --nav-caret-brightness: 1;
+
     --icon-br: 4px;
     --border-width: 3px;
     --border-color: #444;
 
     --icon-img-size:  78%;
+}
+
+.dark-mode {
+    
+        --nav-width: 280px;
+        --nav-iconMode-width: calc(33px + var(--padding-width));
+        --nav-bg-color: rgb(39, 39, 39);
+        --nav-color: #fff;
+    
+        --logo-height: 44px;
+    
+        --transition-speed: 200ms;
+        
+        --padding-width: 8px;
+    
+        --child-indent: 4px;
+        --child-bg: rgba(210, 210, 210, 0.05);
+    
+        --link-height: 44px;
+        --hover-bg: #4b4b4b;
+        --icon-bg: rgb(116, 116, 116);
+        --dropdown-bg-hover: rgb(87, 87, 87);
+        --nav-caret-brightness: 4;
+
+        --icon-br: 4px;
+        --border-width: 3px;
+        --border-color: rgb(123, 123, 123);
+    
+        --icon-img-size:  78%;
+    
 }
 
 

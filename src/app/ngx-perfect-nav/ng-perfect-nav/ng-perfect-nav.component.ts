@@ -18,7 +18,7 @@ export class NgPerfectNavComponent {
 
   @Input() squircle: boolean = false;
 
-
+  @Input() showCategories: boolean = true;
 
 
   @Input() title: string;

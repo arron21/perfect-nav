@@ -7,26 +7,18 @@
 </div>
 <div class="perfect-nav-container" class="{{iconPosition}} {{border}}"
     [ngClass]="{'icon-mode': iconMode, 'hover-reveal': hoverReveal }">
-
-
     <ng-template [ngTemplateOutlet]="linksTemplate" [ngTemplateOutletContext]="{links: links}">
     </ng-template>
-
 </div>
-
-
 <ng-template #linksTemplate let-links="links">
     <ng-container *ngFor="let l of links">
-
         <div class="link" *ngIf="l.visible"
-            [ngClass]="{'show-children': l.showChildren, 'link-category': l.groupCategory, 'link-has-no-icon': !l.icon}">
+            [ngClass]="{'show-children': l.showChildren, 'link-category': l.groupCategory, 'hide-link-category': !showCategories, 'link-has-no-icon': !l.icon}">
             <ng-template [ngTemplateOutlet]="linkTemplate" [ngTemplateOutletContext]="{link: l}">
             </ng-template>
         </div>
     </ng-container>
 </ng-template>
-
-
 <ng-template #linkTemplate let-link="link">
     <div class="link-content">
         <div class="icon no-bg" *ngIf="!link.icon"></div>
@@ -41,9 +33,9 @@
         <div class="label" *ngIf="link.disabled">{{link.label}}</div>
         <div class="spacer"></div>
 
-        <div class="children-dropdown" *ngIf="link.children && link.children.length" (click)="toggleChildren(link)">
+        <button class="children-dropdown" *ngIf="link.children && link.children.length" (click)="toggleChildren(link)">
             <span></span>
-        </div>
+        </button>
     </div>
     <ng-container *ngIf="link.children">
         <div class="child-links">
