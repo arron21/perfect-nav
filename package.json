@@ -1,6 +1,7 @@
 {
   "name": "ngx-perfect-nav",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "repository": "https://github.com/arron21/perfect-nav",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port=4323",
