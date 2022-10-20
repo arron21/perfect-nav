@@ -1,7 +1,0 @@
-/*
- * Public API Surface of ngx-perfect-nav
- */
-export * from './lib/ngx-perfect-nav.service';
-export * from './lib/ngx-perfect-nav.component';
-export * from './lib/ngx-perfect-nav.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1wZXJmZWN0LW5hdi8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLCtCQUErQixDQUFDO0FBQzlDLGNBQWMsaUNBQWlDLENBQUM7QUFDaEQsY0FBYyw4QkFBOEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXBlcmZlY3QtbmF2XG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXBlcmZlY3QtbmF2LnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXBlcmZlY3QtbmF2LmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtcGVyZmVjdC1uYXYubW9kdWxlJztcbiJdfQ==

@@ -1,18 +1,14 @@
-import { __decorate } from "tslib";
 import { Injectable } from '@angular/core';
 import * as i0 from "@angular/core";
-import * as ɵngcc0 from '@angular/core';
-let NgxPerfectNavService = class NgxPerfectNavService {
+export class NgxPerfectNavService {
     constructor() { }
-};
+}
 NgxPerfectNavService.ɵfac = function NgxPerfectNavService_Factory(t) { return new (t || NgxPerfectNavService)(); };
-NgxPerfectNavService.ɵprov = i0.ɵɵdefineInjectable({ factory: function NgxPerfectNavService_Factory() { return new NgxPerfectNavService(); }, token: NgxPerfectNavService, providedIn: "root" });
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(NgxPerfectNavService, [{
+NgxPerfectNavService.ɵprov = i0.ɵɵdefineInjectable({ token: NgxPerfectNavService, factory: NgxPerfectNavService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { i0.ɵsetClassMetadata(NgxPerfectNavService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
             }]
     }], function () { return []; }, null); })();
-export { NgxPerfectNavService };
-
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXBlcmZlY3QtbmF2LnNlcnZpY2UuanMiLCJzb3VyY2VzIjpbIm5neC1wZXJmZWN0LW5hdi9saWIvbmd4LXBlcmZlY3QtbmF2LnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDM0M7O0FBSUEsSUFBYSxvQkFBb0IsR0FBakMsTUFBYSxvQkFBb0I7QUFDakMsSUFDRSxnQkFBZ0IsQ0FBQztBQUNuQixDQUFDO21IQUFBO0FBQ0Q7QUFKYSxvQkFBb0Isb0JBSGhDLFVBQVUsQ0FBQyxVQUNWLFVBQVUsRUFBRTtBQUFNLE1BQ25CLENBQUMsSUFDVztLQUFvQixDQUdoQzs7O2dEQUNEO0FBQUMsU0FKWSxvQkFBb0I7QUFFakMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBJbmplY3RhYmxlKHtcbiAgcHJvdmlkZWRJbjogJ3Jvb3QnXG59KVxuZXhwb3J0IGNsYXNzIE5neFBlcmZlY3ROYXZTZXJ2aWNlIHtcblxuICBjb25zdHJ1Y3RvcigpIHsgfVxufVxuIl19
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXBlcmZlY3QtbmF2LnNlcnZpY2UuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL2Fycm9uL0RvY3VtZW50cy9HaXRIdWIvcGVyZmVjdC1uYXYvcHJvamVjdHMvbmd4LXBlcmZlY3QtbmF2L3NyYy8iLCJzb3VyY2VzIjpbImxpYi9uZ3gtcGVyZmVjdC1uYXYuc2VydmljZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sZUFBZSxDQUFDOztBQUszQyxNQUFNLE9BQU8sb0JBQW9CO0lBRS9CLGdCQUFnQixDQUFDOzt3RkFGTixvQkFBb0I7NERBQXBCLG9CQUFvQixXQUFwQixvQkFBb0IsbUJBRm5CLE1BQU07a0RBRVAsb0JBQW9CO2NBSGhDLFVBQVU7ZUFBQztnQkFDVixVQUFVLEVBQUUsTUFBTTthQUNuQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQEluamVjdGFibGUoe1xuICBwcm92aWRlZEluOiAncm9vdCdcbn0pXG5leHBvcnQgY2xhc3MgTmd4UGVyZmVjdE5hdlNlcnZpY2Uge1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG59XG4iXX0=

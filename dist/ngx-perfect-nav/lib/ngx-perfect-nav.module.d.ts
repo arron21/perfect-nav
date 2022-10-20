@@ -1,10 +1,8 @@
-import * as ɵngcc0 from '@angular/core';
-import * as ɵngcc1 from './ngx-perfect-nav.component';
-import * as ɵngcc2 from '@angular/common';
-import * as ɵngcc3 from '@angular/router';
+import * as i0 from "@angular/core";
+import * as i1 from "./ngx-perfect-nav.component";
+import * as i2 from "@angular/common";
+import * as i3 from "@angular/router";
 export declare class NgxPerfectNavModule {
-    static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<NgxPerfectNavModule, [typeof ɵngcc1.NgxPerfectNavComponent], [typeof ɵngcc2.CommonModule, typeof ɵngcc3.RouterModule], [typeof ɵngcc1.NgxPerfectNavComponent]>;
-    static ɵinj: ɵngcc0.ɵɵInjectorDef<NgxPerfectNavModule>;
+    static ɵmod: i0.ɵɵNgModuleDefWithMeta<NgxPerfectNavModule, [typeof i1.NgxPerfectNavComponent], [typeof i2.CommonModule, typeof i3.RouterModule], [typeof i1.NgxPerfectNavComponent]>;
+    static ɵinj: i0.ɵɵInjectorDef<NgxPerfectNavModule>;
 }
-
-//# sourceMappingURL=ngx-perfect-nav.module.d.ts.map

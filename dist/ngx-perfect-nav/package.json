@@ -7,29 +7,16 @@
     "@angular/core": "^9.1.12"
   },
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   },
   "main": "bundles/ngx-perfect-nav.umd.js",
-  "module": "fesm5/ngx-perfect-nav.js",
+  "module": "fesm2015/ngx-perfect-nav.js",
   "es2015": "fesm2015/ngx-perfect-nav.js",
-  "esm5": "esm5/ngx-perfect-nav.js",
   "esm2015": "esm2015/ngx-perfect-nav.js",
-  "fesm5": "fesm5/ngx-perfect-nav.js",
   "fesm2015": "fesm2015/ngx-perfect-nav.js",
   "typings": "ngx-perfect-nav.d.ts",
-  "metadata": "ngx-perfect-nav.metadata.json",
   "sideEffects": false,
-  "__processed_by_ivy_ngcc__": {
-    "es2015": "10.2.5",
-    "esm2015": "10.2.5",
-    "esm5": "10.2.5",
-    "fesm2015": "10.2.5",
-    "fesm5": "10.2.5",
-    "main": "10.2.5",
-    "module": "10.2.5",
-    "typings": "10.2.5"
-  },
   "scripts": {
-    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
   }
 }

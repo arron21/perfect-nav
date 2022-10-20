@@ -1,7 +1,6 @@
-import * as ɵngcc0 from '@angular/core';
+import * as i0 from "@angular/core";
 export declare class NgxPerfectNavService {
     constructor();
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxPerfectNavService, never>;
+    static ɵfac: i0.ɵɵFactoryDef<NgxPerfectNavService, never>;
+    static ɵprov: i0.ɵɵInjectableDef<NgxPerfectNavService>;
 }
-
-//# sourceMappingURL=ngx-perfect-nav.service.d.ts.map
