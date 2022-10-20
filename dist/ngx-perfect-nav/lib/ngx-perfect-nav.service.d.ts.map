@@ -1,0 +1,1 @@
+{"version":3,"file":"ngx-perfect-nav.service.d.ts","sources":["ngx-perfect-nav.service.d.ts"],"names":[],"mappings":";AAAA;AACA;;AACA","sourcesContent":["export declare class NgxPerfectNavService {\n    constructor();\n}\n"]}
