@@ -60,7 +60,7 @@ export class AppComponent {
 
                   label: 'arronmccrory.com',
                   icon: 'A',
-                  disabled: true,
+                  disabled: false,
                   link: 'arronmccrory.com'
                 },
                 {
@@ -107,7 +107,7 @@ export class AppComponent {
 
           label: 'arronmccrory.com',
           icon: 'B',
-          disabled: true,
+          disabled: false,
           link: 'arronmccrory.com'
 
         }

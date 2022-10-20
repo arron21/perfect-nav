@@ -25,12 +25,12 @@
 
         <i class="fas fa-chart-line"></i>
         
-        <div class="icon" *ngIf="link.faIcon" [ngClass]="{'squircle': squircle}"><i class="fas {{link.faIcon}}"></i></div>
-        <div class="icon" *ngIf="link.icon" [ngClass]="{'squircle': squircle}">{{link.icon}}</div>
-        <div class="icon" *ngIf="link.iconImg" [ngClass]="{'squircle': squircle}"><img src="{{link.iconImg}}" /></div>
+        <div aria-hidden="true" class="icon" *ngIf="link.faIcon" [ngClass]="{'squircle': squircle}"><i class="fas {{link.faIcon}}"></i></div>
+        <div aria-hidden="true" class="icon" *ngIf="link.icon" [ngClass]="{'squircle': squircle}">{{link.icon}}</div>
+        <div aria-hidden="true" class="icon" *ngIf="link.iconImg" [ngClass]="{'squircle': squircle}"><img src="{{link.iconImg}}" /></div>
 
-        <div class="label" *ngIf="!link.disabled"><a [routerLink]="link.link">{{link.label}}</a></div>
-        <div class="label" *ngIf="link.disabled">{{link.label}}</div>
+        <a class="label" *ngIf="!link.disabled" [routerLink]="link.link">{{link.label}}</a>
+        <div class="label label--disabled" *ngIf="link.disabled">{{link.label}}</div>
         <div class="spacer"></div>
 
         <button class="children-dropdown" *ngIf="link.children && link.children.length" (click)="toggleChildren(link)">
