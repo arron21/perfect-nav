@@ -1,0 +1,12 @@
+{
+  "name": "ngx-perfect-nav",
+  "version": "0.0.6",
+  "repository": "https://github.com/arron21/perfect-nav",
+  "peerDependencies": {
+    "@angular/common": "^9.1.12",
+    "@angular/core": "^9.1.12"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}

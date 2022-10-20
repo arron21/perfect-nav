@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-perfect-nav": [
+        "dist/ngx-perfect-nav/ngx-perfect-nav",
+        "dist/ngx-perfect-nav"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

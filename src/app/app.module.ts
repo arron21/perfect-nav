@@ -5,7 +5,8 @@ import { createCustomElement } from '@angular/elements';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgxPerfectNavModule } from './ngx-perfect-nav';
+import { NgxPerfectNavModule } from 'projects/ngx-perfect-nav/src/public-api';
+// import { NgxPerfectNavModule } from './ngx-perfect-nav';
 
 @NgModule({
   declarations: [

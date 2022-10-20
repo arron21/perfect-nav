@@ -123,6 +123,46 @@
           }
         }
       }
+    },
+    "ngx-perfect-nav": {
+      "projectType": "library",
+      "root": "projects/ngx-perfect-nav",
+      "sourceRoot": "projects/ngx-perfect-nav/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-perfect-nav/tsconfig.lib.json",
+            "project": "projects/ngx-perfect-nav/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-perfect-nav/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-perfect-nav/src/test.ts",
+            "tsConfig": "projects/ngx-perfect-nav/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-perfect-nav/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-perfect-nav/tsconfig.lib.json",
+              "projects/ngx-perfect-nav/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "perfect-nav",
